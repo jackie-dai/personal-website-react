@@ -11,6 +11,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: white;
 }
 
 a {
@@ -24,15 +25,35 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
   min-height: 100vh;
 }
 
+.section-container {
+  max-width: 40vw;
+  margin: 0 auto;   /* horizontal centering */
+  padding-top: 1rem;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+
 h1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+h3 {
+  font-family: 'Times New Roman', Times, serif;
 }
 
 button {
@@ -65,4 +86,16 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.section-title {
+  color: black;
+  text-align: left;
+  margin: auto;
+}
+
+#facts-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
 }
