@@ -28,7 +28,7 @@ function App() {
     <>
       <Header style={{width: "40vw"}}></Header>
 
-      <div class="section-container">
+      <div style={{padding: "0.25rem"}}class="section-container">
         <h2 style={{textAlign: "left"}}>About Me</h2>
         <div id="facts-container">
           <p>• I am {age} years old</p>
@@ -58,7 +58,19 @@ function App() {
 
       <div class="section-container">
         <h2 class="section-title">Experience</h2>
-        
+        <Experience
+          img="/broctagon.png"
+          company="Broctagon"
+          description="Singapore based fintech company"
+          location="Singapore"
+        ></Experience>
+
+         <Experience
+          img="/yuabread.png"
+          company="YuaBread, Inc."
+          description="Bread delivery service for local bakeries in Japan"
+          location="Tokyo, Japan"
+        ></Experience>
       </div>
     </>
   )
