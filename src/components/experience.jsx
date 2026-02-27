@@ -8,7 +8,11 @@ function Experience(props) {
                     <img src={props.img}></img>
                 </div>
                 <div id="text-container">
-                    <h3>{props.company}</h3>
+                    <div>
+                        <h3 style={{marginBottom: "0px"}}>{props.company}</h3>
+                        <p style={{margin: "0px"}}>{props.position}</p>
+                    </div>
+                    
                     <p>{props.description}</p>
                 </div>
             </div>
