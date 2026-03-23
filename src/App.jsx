@@ -39,23 +39,30 @@ function App() {
 
       <div class="section-container">
         <h2 class="section-title">Projects</h2>
-        <a href="https://yearbook.studentorg.berkeley.edu/" target="_blank"><Project 
+        <Project 
           img="/blue&gold.png" 
           title="Blue & Gold Yearbook" 
-          description="I developed and maintain UC Berkeley's official yearbook website">
+          description="I developed and maintain UC Berkeley's official yearbook website"
+          link="https://yearbook.studentorg.berkeley.edu/">
         </Project>
-        </a>
         <Project 
           img="/gdd-logo.png" 
           title="3D Virtual Showroom" 
-          description="A 3D website made to showcase games developed by students from UC Berkeley's Video Game Design and Development club">
+          description="A 3D website made to showcase games developed by students from UC Berkeley's Video Game Design and Development club"
+          link="https://youtu.be/z98dvMcTmUk?si=_m7NwFaGu2Rzs1XT">
         </Project>
-        <a href="https://jackie-dai.github.io/cs180-webpages/" target="_blank"><Project 
+        <Project 
           img="/orapple.png" 
           title="Computer Graphics" 
-          description="My projects for CS180: Computer Vision/Computational Photography">
+          description="My projects for CS180: Computer Vision/Computational Photography"
+          link="https://jackie-dai.github.io/cs180-webpages/">
         </Project>
-        </a>
+        <Project
+          img="/gdd-logo.png"  
+          title="Video Game Design and Development Course Website" 
+          description="Course website for the Video Game Design and Development class at UC Berkeley"
+          link="https://www.gamedesigndecal.com/">
+        </Project>
       </div>
 
       <div class="section-container">
