@@ -71,16 +71,18 @@ function App() {
           img="/broctagon.png"
           company="Broctagon"
           position="Software Engineer Intern"
-          description="Singapore based fintech company"
+          description="Fintech company with locations in Hong Kong, Singapore, India, etc.. I worked with AWS Bedwork and Lambda to create an AI chatbot for FX trading."
           location="Singapore"
+          link="https://broctagon.com/"
         ></Experience>
 
          <Experience
           img="/yuabread.png"
           company="YuaBread, Inc."
           position="Software Engineer Intern"
-          description="Bread delivery service for local bakeries in Japan"
+          description="Bread delivery service for local bakeries in Japan. I designed and developed a web application to automate the processing of incoming bread delivery orders."
           location="Tokyo, Japan"
+          link="https://panforyou.jp/en"
         ></Experience>
       </div>
     </>
