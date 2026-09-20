@@ -14,7 +14,7 @@ function Header(props) {
                 </div>
                 <div id="right">
                     <div id="links">
-                        <a href="/Jackie_Dai_Resume_2025.pdf" target="_blank">Resume</a>
+                        <a href="/Jackie_Dai_SWE_Resume.pdf" target="_blank">Resume</a>
                         <a href="https://github.com/jackie-dai"  target="_blank">Github</a>
                         <a href="https://www.linkedin.com/in/jackie-dai/" target="_blank">Linkedin</a>
                     </div>
