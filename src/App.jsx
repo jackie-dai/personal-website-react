@@ -58,11 +58,12 @@ function App() {
           link="https://jackie-dai.github.io/cs180-webpages/">
         </Project>
         <Project
-          img="/gdd-logo.png"  
-          title="Video Game Design and Development Course Website" 
-          description="Course website for the Video Game Design and Development class at UC Berkeley"
-          link="https://www.gamedesigndecal.com/">
+          img="/uc_berkeley_seal.png"  
+          title="RehabAR" 
+          description="Working under EECS Professor Sanjit. Seshia and Postdoc Edward Kim, we developed a mixed reality rehabilitation platform using Unity, C#, and the Meta Quest 3. This allowed stroke patients to put on a VR headset that entered a video call with a therapist from a hospital. The therapist could see the patients environment and place virtual objects to instruct the patient to perform exercises. The patients progress was recorded and tracked for progress."
+          link="https://arxiv.org/abs/2511.18274">
         </Project>
+        
       </div>
 
       <div class="section-container">
